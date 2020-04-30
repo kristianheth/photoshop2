@@ -36,6 +36,11 @@ nav {
     /* width: 85px;
     height: 94px; */
 }
+.nav-logo2 {
+    padding: 25px;
+    /* width: 85px;
+    height: 94px; */
+}
 
 .hlinks {
     /* text-align: center; */
@@ -51,6 +56,12 @@ h2 {
     font-weight: 510;
     font-size: 20px;
     letter-spacing: 3px;
+}
+
+h3 {
+    color: #848789;
+    font-size: 24px;
+    font-style: italic;
 }
 
 section {
@@ -85,6 +96,16 @@ section {
 
 }
 
+.s5 {
+    height: 470px;
+    align-items: center;
+}
+
+.s5 img {
+    width: 100px;
+
+}
+
 p {
     text-align: center;
     width: 1080px;
@@ -95,9 +116,38 @@ p {
     /* align-content: center; */
 }
 
+form {
+    padding: 20px;
+}
+
 .ps1 {
     padding-left: 250px;
     margin-top: 20px;
+}
+
+form input[type=email] {
+    width: 400px;
+    height: 70px;
+}
+
+form input[type=email]::placeholder {
+   color: #848789;
+   font-weight: 500;
+   font-size: 18px;
+   font-style: italic;
+}
+
+form input[type=submit] {
+    padding: 15px 15px 54px 15px;
+    width: 130px;
+    height: 70px;
+    background-color: #64c29e;
+    font-weight: 100;
+}
+
+form [value=GO] {
+    font-size: 25px;
+    color: #ffffff;
 }
 
 .ps2 {
@@ -249,17 +299,19 @@ hr {
 
 }
 
+/* 
 .footer {
     
     display: flex;
     flex-direction: row;
-}
+} */
 
 .adress {
-    padding: 70px 40px 40px 230px;
+    padding: 90px 150px 40px 200px;
     font-size: 0.8rem;
-
+    width: 240px;
 }
+
 .adress p {
     text-align: left;
     line-height: 17.87px;
@@ -267,12 +319,16 @@ hr {
 }
 
 .social-media {
-    padding: 80px 50px 40px 160px;
+    padding: 60px 0 0 60px;
+}
+
+.social-media img {
+    padding-right: 10px;
 }
 
 .copyright {
-    padding: 80px 50px 40px 190px;
-    font-size: 0.8rem;
+    padding: 100px 0 0 0;
+    font-size: 14px;
 
 }
 
