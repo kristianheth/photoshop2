@@ -10,8 +10,6 @@ body {
 .content {
     max-width: 1600px;
     margin: auto;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .overflow-hidden {
@@ -33,17 +31,13 @@ nav {
 
 .nav-logo {
     padding: 25px;
-    /* width: 85px;
-    height: 94px; */
 }
+
 .nav-logo2 {
     padding: 25px;
-    /* width: 85px;
-    height: 94px; */
 }
 
 .hlinks {
-    /* text-align: center; */
     position: relative;
     bottom: 70px;
     padding: 0 20px;
@@ -72,7 +66,6 @@ section {
     height: 420px;
     background-color: #f7f7f7;
     vertical-align: middle;
-
     font-weight: normal;
     font-size: 18px;
 }
@@ -93,17 +86,17 @@ section {
 .s4 {
     height: 470px;
     background-color: #f7f7f7;
+}
 
+.s4 img {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
 }
 
 .s5 {
     height: 470px;
     align-items: center;
-}
-
-.s5 img {
-    width: 100px;
-
 }
 
 p {
@@ -113,7 +106,6 @@ p {
     line-height: 34px;
     font-size: 18px;
     color: #848789;
-    /* align-content: center; */
 }
 
 form {
@@ -131,10 +123,10 @@ form input[type=email] {
 }
 
 form input[type=email]::placeholder {
-   color: #848789;
-   font-weight: 500;
-   font-size: 18px;
-   font-style: italic;
+    color: #848789;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: italic;
 }
 
 form input[type=submit] {
@@ -174,17 +166,19 @@ form [value=GO] {
     width: 0;
 }
 
+#twitter b {
+    letter-spacing: 25px;
+}
+
 .p-center {
     text-align: justify;
     width: 400px;
-    /* justify-content: center; */
     font-size: 16px;
 }
 
 .flex-container-row {
     display: flex;
     flex-direction: row;
-
 }
 
 .flex-container-row-reverse {
@@ -195,6 +189,12 @@ form [value=GO] {
 .flex-container-col {
     display: flex;
     flex-direction: column;
+}
+
+.flex-container-col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .flex-container-wrap {
@@ -224,17 +224,36 @@ form [value=GO] {
 }
 
 .icon {
-    /* display: block; */
     margin-left: auto;
     margin-right: auto;
-    /* width: 50px; */
-    /* height: 50px;  */
     padding: 50px 0 20px 0;
+}
+
+.logo-opacity1 {
+    z-index: 10;
+    position: absolute;
+    bottom: -570px;
+    left: 650px;
+}
+
+.logo-opacity2 {
+    z-index: 10;
+    position: absolute;
+    bottom: -1200px;
+    right: 610px;
+}
+
+.logo-opacity3 {
+    z-index: 10;
+    position: absolute;
+    bottom: -1750px;
+    left: 310px;
 }
 
 .image-large {
     height: 600px;
     width: 1075px;
+    overflow: hidden;
 }
 
 .image-medium {
@@ -244,7 +263,7 @@ form [value=GO] {
 
 .image-small {
     height: 200px;
-    /* width: 530px; */
+    overflow: hidden;
 }
 
 .small-square {
@@ -255,12 +274,34 @@ form [value=GO] {
 .image-slim {
     height: 534px;
     width: 262px;
+    overflow: hidden;
 }
 
 .layer-green {
-    background-color: rgba(128, 255, 1);
-    background-image: url("assets/Shape 13.png");
-    z-index: 1;
+    background-color: #64c29e;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    position: absolute;
+    bottom: -2758px;
+    right: 151px;
+    width: 533px;
+    height: 267px;
+}
+
+#logo-bike {
+    width: 51px;
+    height: 30px;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+#shop-now {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
 }
 
 .twitter-icon {
@@ -270,7 +311,6 @@ form [value=GO] {
 hr {
     width: 8%;
     color: hsl(204, 2%, 95%);
-    /* padding: 0 20px 10px 80px; */
 }
 
 .discover {
@@ -289,22 +329,12 @@ hr {
     padding: 15px 40px;
 }
 
-
-
 .flex-container-row-footer {
     display: flex;
     flex-direction: row;
     background-color: #f7f7f7;
     height: 250px;
-
 }
-
-/* 
-.footer {
-    
-    display: flex;
-    flex-direction: row;
-} */
 
 .adress {
     padding: 90px 150px 40px 200px;
@@ -329,7 +359,6 @@ hr {
 .copyright {
     padding: 100px 0 0 0;
     font-size: 14px;
-
 }
 
 .adress,
