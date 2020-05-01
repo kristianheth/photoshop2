@@ -16,6 +16,10 @@ body {
     overflow: hidden;
 }
 
+.relative {
+    position: relative;
+}
+
 header {
     background-image: url("assets/Layer 7.png");
     height: 750px;
@@ -42,7 +46,8 @@ nav {
     bottom: 70px;
     padding: 0 20px;
     text-decoration: none;
-    color: #323232;
+    color: #4d4959;
+    font-size: 13px;
 }
 
 h1,
@@ -74,6 +79,7 @@ section {
     height: 600px;
     font-weight: normal;
     font-size: 16px;
+    vertical-align: middle;
 }
 
 .s3 {
@@ -230,40 +236,36 @@ form [value=GO] {
 }
 
 .logo-opacity1 {
-    z-index: 10;
     position: absolute;
-    bottom: -570px;
-    left: 650px;
+    bottom: 240px;
+    left: 500px;
 }
 
 .logo-opacity2 {
-    z-index: 10;
     position: absolute;
-    bottom: -1200px;
-    right: 610px;
+    bottom: 222px;
+    right: 435px;
 }
 
 .logo-opacity3 {
-    z-index: 10;
     position: absolute;
-    bottom: -1750px;
-    left: 310px;
+    bottom: 265px;
+    left: 162px;
 }
 
 .image-large {
     height: 600px;
-    width: 1075px;
-    overflow: hidden;
+    width: 1067px;
 }
 
 .image-medium {
-    height: 267px;
-    width: 534px;
+    height: 600px;
+    width: 533px;
 }
 
 .image-small {
     height: 200px;
-    overflow: hidden;
+    width: 534px;
 }
 
 .small-square {
@@ -274,7 +276,11 @@ form [value=GO] {
 .image-slim {
     height: 534px;
     width: 262px;
-    overflow: hidden;
+}
+
+.image-slim-horizontal {
+    height: 267px;
+    width: 533px;
 }
 
 .layer-green {
@@ -282,8 +288,7 @@ form [value=GO] {
     background-repeat: no-repeat;
     opacity: 0.7;
     position: absolute;
-    bottom: -2786px;
-    right: 152px;
+    bottom: 267px;
     width: 533px;
     height: 267px;
 }
